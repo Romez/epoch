@@ -1,5 +1,5 @@
 print current epoch time in console
 
 build:
-nasm -g -f elf hello.asm
-ld-o hello hello.o
+nasm -g -f elf64 epoch.asm
+ld-o epoch epoch.o
